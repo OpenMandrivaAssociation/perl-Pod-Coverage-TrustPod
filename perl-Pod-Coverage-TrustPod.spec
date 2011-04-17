@@ -1,5 +1,5 @@
 %define upstream_name    Pod-Coverage-TrustPod
-%define upstream_version 0.092832
+%define upstream_version 0.100000
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
