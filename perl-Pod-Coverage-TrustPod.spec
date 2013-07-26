@@ -1,15 +1,15 @@
 %define upstream_name    Pod-Coverage-TrustPod
-%define upstream_version 0.100001
+%define upstream_version 0.100002
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 0.100002
+Release:	1
 
 Summary:	Allow a module's pod to contain Pod::Coverage hints
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Pod/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Pod/Pod-Coverage-TrustPod-0.100002.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Pod::Coverage)
@@ -71,4 +71,5 @@ make test
 
 * Fri Jun 19 2009 cpan2dist 0.091470-1mdv
 - initial mdv release, generated with cpan2dist
+
 
